@@ -9,6 +9,17 @@
     <a href='#monetizzeCompra' data-upsell='da0f1a294140db274c632382f77d280d'>Comprar</a>
     <p id="demo"></p>
 
+<p>Hover over the checkbox to simulate a mouse-click.</p>
+
+<form>
+  <input type="checkbox" id="myCheck" onmouseover="myFunction()" onclick="alert('click event occured')">
+</form>
+
+<script>
+function myFunction() {
+  document.getElementById("myCheck").click();
+}
+</script>
 <script>
 var d = new Date();
 document.getElementById("demo").innerHTML = d;
