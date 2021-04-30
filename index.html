@@ -12,18 +12,14 @@
 <p>Hover over the checkbox to simulate a mouse-click.</p>
 
 <form>
-  <input type="checkbox" id="myCheck" onClick="myFunction()" onclick="alert('click event occured')">
+  <input type="button" id="myButton" onClick="myFunction()">
 </form>
 
 <script>
 function myFunction() {
-  document.getElementById("myCheck").click();
-}
-</script>
-<script>
-var d = new Date();
+  var d = new Date();
 document.getElementById("demo").innerHTML = d;
-</script>
+}
     
 </body>
 </html>
